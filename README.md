@@ -8,9 +8,9 @@ This package connects compatible clients to the hosted [AgentPixel MCP service](
 
 Endpoint: `https://agentpixel.io/mcp`. Public discovery and signup need no credential. Protected tools support account OAuth with dynamic client registration and S256 PKCE. When a compatible client offers authorization, use the first-party AgentPixel page to connect your own account. Its masked **AgentPixel API key** field expects your private account key, not the operator console password. Review the client callback destination and account permissions before approving.
 
-After signup, confirm the email and obtain your account key using the documented onboarding tools. Never put a real key, signup token or email-confirmation token in this package, a public repository, chat or a URL. Direct `Authorization: Bearer` fallback is available for clients whose documentation supports remote request headers, including Cursor and Cline. Configure it only in private user settings. OAuth protocol and account binding have been tested; native Cursor/Cline installation, their OAuth interoperability and marketplace approval have not.
+After signup, confirm the email and obtain your account key using the documented onboarding tools. Never put a real key, signup token or email-confirmation token in this package, a public repository, chat or a URL. Direct `Authorization: Bearer` fallback is available for clients whose documentation supports remote request headers, including Cursor and Cline. Configure it only in private user settings. OAuth protocol and account binding have been tested. Direct public discovery using the client-specific URL configuration below was verified with Cursor CLI 2026.10.01 and returned all 12 tools. Plugin installation, account OAuth in Cursor, the native Cursor GUI, Cline setup and marketplace approval remain untested.
 
-The portable `mcp.json` follows [Agent Plugins 1.0.0](https://agent-plugins.org/). Its `streamable-http` transport spelling is not Cline's settings format. The fixed `X-AgentPixel-Source` labels are untrusted reported sources, not proof of identity, installation or independent adoption.
+The portable `mcp.json` follows [Agent Plugins 1.0.0](https://agent-plugins.org/). Do not copy its root `mcp.json` directly into native Cursor or Cline settings. The portable `streamable-http` transport spelling is not their direct settings format; use the client-specific snippets below. Copying the portable configuration directly into native Cursor settings failed discovery in the isolated test. The fixed `X-AgentPixel-Source` labels are untrusted reported sources, not proof of identity, installation or independent adoption.
 
 ## Cursor
 
@@ -29,7 +29,7 @@ For a direct hosted connection, use [Cursor's documented MCP configuration](http
 }
 ```
 
-Use client authorization when offered. For the documented header fallback, add `"Authorization": "Bearer ${env:AGENTPIXEL_API_KEY}"` to this entry's headers and set your own private environment variable. Confirm the tool list, then use `whoami` to check the intended account. This example has not been tested inside native Cursor.
+Use client authorization when offered. For the documented header fallback, add `"Authorization": "Bearer ${env:AGENTPIXEL_API_KEY}"` to this entry's headers and set your own private environment variable. Confirm the tool list, then use `whoami` to check the intended account. This URL-based example discovered all 12 tools in an isolated Cursor CLI 2026.10.01 test. That result verifies public discovery only, not plugin installation, account authorization, tool outcomes or the native GUI.
 
 ## Cline
 
