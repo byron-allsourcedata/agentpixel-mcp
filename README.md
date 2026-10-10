@@ -70,6 +70,17 @@ gemini extensions install https://github.com/byron-allsourcedata/agentpixel-mcp
 
 Review the installation prompt and tool requests. Public discovery requires no key. Private account tools require authorization through the client. Keep credentials in private client settings only, never in the repository or chat. The companion `skills/agentpixel/SKILL.md` describes the website owner and consent workflow. Native Gemini CLI installation, private account authorization and gallery acceptance remain unverified.
 
+## Framework integrations
+
+Use AgentPixel from agent frameworks with any MCP client. Minimal examples, including keyless signup and the `px_` key:
+
+- [LangChain and LangGraph](docs/integrations/langchain.md) (Python)
+- [CrewAI](docs/integrations/crewai.md) (Python)
+- [Vercel AI SDK](docs/integrations/vercel-ai-sdk.md) (TypeScript)
+- [Mastra](docs/integrations/mastra.md) (TypeScript)
+
+See [docs/integrations](docs/integrations/README.md) for how auth works across frameworks.
+
 ## Useful tasks
 
 - [Create a consent-aware pixel for a website you control](https://agentpixel.io/guides/consented-visitor-identity). Reuse an existing domain registration when available.
@@ -82,14 +93,8 @@ See [the public connection guide](https://agentpixel.io/connect) and [API docume
 
 The 30-day trial requires no card. Afterward, service costs $1 per account per month, covering up to 3 pixels and 500 new contacts per UTC calendar month, with no extra usage charges. After trial expiry, the account pauses until subscribed. New resolutions stop at the monthly limit and resume with the next UTC month's allowance. Subscription does not increase that limit. Consult account status and the current contract for available reads and next actions.
 
-## License, privacy and support
+## License, privacy, terms and support
 
 The distributed connection package, workflow text and wordmark are covered by the [MIT License](LICENSE), copyright 2026 AllSource Data Corporation. The license grants no hosted-backend source, service credentials, account access or private AllSource systems. `logo.png` is a 400x400 text wordmark derived from AgentPixel's existing public brand name and colors; it carries no certification mark.
 
-Website owners supply their controller identity, consent purposes and site policy. Service privacy: [AllSource privacy policy](https://allsourcedata.io/privacy.html). Support: [byron@allsourcedata.io](mailto:byron@allsourcedata.io).
-
-## Privacy, terms and support
-
-Privacy policy: https://allsourcedata.io/privacy
-Terms: https://allsourcedata.io/terms
-Support: joey@allsourcedata.io
+Website owners supply their controller identity, consent purposes and site policy. Privacy policy: [allsourcedata.io/privacy](https://allsourcedata.io/privacy). Terms: [allsourcedata.io/terms](https://allsourcedata.io/terms). Support: [joey@allsourcedata.io](mailto:joey@allsourcedata.io).
