@@ -2,6 +2,15 @@
 
 <!-- mcp-name: io.agentpixel/agentpixel -->
 
+**Consent-first website pixel for AI agents.** Visitors accept "identify this visit" before anything runs; your agent installs the tag and reads consented contacts. 30-day trial, no card, then $1 per account/month.
+
+[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_AgentPixel-0098FF)](https://insiders.vscode.dev/redirect/mcp/install?name=AgentPixel&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fagentpixel.io%2Fmcp%22%2C%22headers%22%3A%7B%22X-AgentPixel-Source%22%3A%22vscode%22%7D%7D)
+[![Install in Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://agentpixel.io/connect)
+
+Claude Code: `claude mcp add --transport http agentpixel https://agentpixel.io/mcp --header "X-AgentPixel-Source: claude_code"`
+
+Gemini CLI: `gemini extensions install https://github.com/byron-allsourcedata/agentpixel-mcp`
+
 This package connects compatible clients to the hosted [AgentPixel MCP service](https://agentpixel.io/connect) and supplies one workflow skill. The backend stays private and hosted. No executables, credentials or customer records are bundled.
 
 ## Connection and authentication
@@ -78,3 +87,9 @@ The 30-day trial requires no card. Afterward, service costs $1 per account per m
 The distributed connection package, workflow text and wordmark are covered by the [MIT License](LICENSE), copyright 2026 AllSource Data Corporation. The license grants no hosted-backend source, service credentials, account access or private AllSource systems. `logo.png` is a 400x400 text wordmark derived from AgentPixel's existing public brand name and colors; it carries no certification mark.
 
 Website owners supply their controller identity, consent purposes and site policy. Service privacy: [AllSource privacy policy](https://allsourcedata.io/privacy.html). Support: [byron@allsourcedata.io](mailto:byron@allsourcedata.io).
+
+## Privacy, terms and support
+
+Privacy policy: https://allsourcedata.io/privacy
+Terms: https://allsourcedata.io/terms
+Support: joey@allsourcedata.io

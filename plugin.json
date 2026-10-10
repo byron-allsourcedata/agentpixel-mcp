@@ -1,21 +1,22 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "agentpixel",
-  "version": "0.1.1",
-  "description": "Set up consent-aware website pixels, verify installation, and retrieve permitted contacts using the hosted AgentPixel MCP service.",
+  "version": "0.1.2",
+  "description": "Consent-first website pixel: set up the consent bar and tag, verify installation, and read contacts from visitors who accepted identification, using the hosted AgentPixel MCP service.",
   "author": {
     "name": "AllSource Data Corporation",
     "email": "byron@allsourcedata.io",
     "url": "https://agentpixel.io"
   },
   "homepage": "https://agentpixel.io/connect",
+  "repository": "https://github.com/byron-allsourcedata/agentpixel-mcp",
   "keywords": [
     "mcp",
-    "website",
     "consent",
+    "website",
     "pixel",
-    "installation",
-    "contacts"
+    "contacts",
+    "marketing"
   ],
   "license": "MIT"
 }

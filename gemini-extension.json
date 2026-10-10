@@ -1,11 +1,13 @@
 {
   "name": "agentpixel",
-  "version": "0.1.1",
-  "description": "Hosted MCP for authorized website pixels, visitor consent and permitted contact retrieval.",
+  "version": "0.1.2",
+  "description": "Consent-first website pixel: visitors opt in before identification; your agent installs the tag and reads consented contacts. 30-day trial, no card.",
   "mcpServers": {
     "agentpixel": {
       "httpUrl": "https://agentpixel.io/mcp",
-      "headers": { "X-AgentPixel-Source": "gemini_cli" }
+      "headers": {
+        "X-AgentPixel-Source": "gemini_cli"
+      }
     }
   }
 }

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.agentpixel/agentpixel",
+  "title": "AgentPixel",
+  "description": "Consent-first website pixel. Visitors opt in first; your agent installs it and reads contacts.",
+  "version": "0.1.2",
+  "websiteUrl": "https://agentpixel.io/connect",
+  "repository": {
+    "url": "https://github.com/byron-allsourcedata/agentpixel-mcp",
+    "source": "github",
+    "id": "1412881459"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/byron-allsourcedata/agentpixel-mcp/main/logo.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "400x400"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentpixel.io/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <your AgentPixel API key>. Leave blank to start the 30-day trial; required for pixel and contact tools unless X-API-Key is used.",
+          "isRequired": false,
+          "isSecret": true
+        },
+        {
+          "name": "X-API-Key",
+          "description": "Your AgentPixel API key, as an alternative to Authorization. Leave blank to start the trial.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

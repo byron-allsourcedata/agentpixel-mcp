@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "agentpixel": {
+      "url": "https://agentpixel.io/mcp",
+      "headers": {
+        "X-AgentPixel-Source": "cursor_directory"
+      }
+    }
+  }
+}

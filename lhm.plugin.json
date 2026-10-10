@@ -1,0 +1,17 @@
+{
+  "identifier": "agentpixel",
+  "name": "AgentPixel",
+  "version": "0.1.2",
+  "description": "Consent-first website pixel for AI agents. Visitors opt in before identification. Your agent installs the tag and reads consented contacts. 30-day trial, no card.",
+  "homepage": "https://github.com/byron-allsourcedata/agentpixel-mcp",
+  "cloudEndpoint": "https://agentpixel.io/mcp",
+  "author": "AllSource Data Corporation",
+  "category": "marketing",
+  "tags": [
+    "consent",
+    "website-pixel",
+    "contacts",
+    "marketing",
+    "privacy"
+  ]
+}
