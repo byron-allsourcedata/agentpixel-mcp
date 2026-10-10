@@ -1,0 +1,11 @@
+{
+  "name": "agentpixel",
+  "version": "0.1.1",
+  "description": "Hosted MCP for authorized website pixels, visitor consent and permitted contact retrieval.",
+  "mcpServers": {
+    "agentpixel": {
+      "httpUrl": "https://agentpixel.io/mcp",
+      "headers": { "X-AgentPixel-Source": "gemini_cli" }
+    }
+  }
+}

@@ -51,6 +51,16 @@ Follow [Cline's remote-server instructions](https://github.com/cline/cline/blob/
 
 Use OAuth authorization when the client offers it. If using Cline's documented header fallback, add `"Authorization": "Bearer REPLACE_WITH_YOUR_PRIVATE_ACCOUNT_KEY"` to this entry's headers in private settings only. Never commit the replacement value. Leave `autoApprove` empty and review tool requests. Check that tools appear, then call `whoami`. Native Cline setup and marketplace acceptance remain untested.
 
+## Gemini CLI
+
+The root `gemini-extension.json` provides the hosted Streamable HTTP connection. Follow [Gemini CLI's extension instructions](https://geminicli.com/docs/extensions/reference/) to install:
+
+```text
+gemini extensions install https://github.com/byron-allsourcedata/agentpixel-mcp
+```
+
+Review the installation prompt and tool requests. Public discovery requires no key. Private account tools require authorization through the client. Keep credentials in private client settings only, never in the repository or chat. The companion `skills/agentpixel/SKILL.md` describes the website owner and consent workflow. Native Gemini CLI installation, private account authorization and gallery acceptance remain unverified.
+
 ## Useful tasks
 
 - [Create a consent-aware pixel for a website you control](https://agentpixel.io/guides/consented-visitor-identity). Reuse an existing domain registration when available.
