@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "agentpixel": {
+      "type": "streamable-http",
+      "url": "https://agentpixel.io/mcp",
+      "headers": {"X-AgentPixel-Source": "portable_plugin"}
+    }
+  }
+}
