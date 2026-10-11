@@ -2,17 +2,17 @@
 
 <!-- mcp-name: io.agentpixel/agentpixel -->
 
-**Most people who visit your website never fill out a form. AgentPixel helps you meet the ones who say yes.**
+**Most people who visit your website never fill out a form. AgentPixel helps you meet the ones who click Accept.**
 
 ## Why use it
 
-You pay to bring people to your site through ads, content and events, and most of them leave without a name. AgentPixel puts a consent bar on your site that asks each visitor to "identify this visit." Visitors who say yes come back as contacts, so you can:
+You pay to bring people to your site through ads, content and events, and most of them leave without a name. With AgentPixel, visitors click Accept to be identified, and they come back as contacts, so you can:
 
 - **Follow up with prospects who never filled out a form.** Add them to nurture and convert them later.
-- **Get more from the ad spend you already have.** Paid clicks from visitors who say yes become contacts, not just anonymous sessions.
-- **Know who your traffic really is.** Job titles and companies of visitors who say yes show whether your traffic fits your ideal customer profile.
+- **Get more from the ad spend you already have.** Paid clicks from visitors who click Accept become contacts, not just anonymous sessions.
+- **Know who your traffic really is.** Job titles and companies of visitors who click Accept show whether your traffic fits your ideal customer profile.
 
-Every result depends on visitors who say yes, and not every visitor who says yes can be matched to a contact.
+Every result depends on visitors who click Accept, and not every visitor who clicks Accept can be matched to a contact.
 
 **How it works.** Consent-first website pixel: set up the consent bar, install the tag, verify it and read contacts. Your AI agent does the setup. It can show labeled sample output with `try_sample` (no account, no key), start a 30-day trial (no card) with a 6-digit code from your email, install the snippet from `configure_consent` and read contacts by day. Then $1 per account per month.
 

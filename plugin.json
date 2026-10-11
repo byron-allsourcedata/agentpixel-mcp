@@ -2,7 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "agentpixel",
   "version": "0.1.2",
-  "description": "Most website visitors leave without filling out a form. AgentPixel turns the ones who say yes into contacts your AI agent reads. 30-day trial, no card.",
+  "description": "Most website visitors leave without filling out a form. AgentPixel turns the ones who click Accept into contacts your AI agent reads. 30-day trial, no card.",
   "author": {
     "name": "AllSource Data Corporation",
     "email": "byron@allsourcedata.io",

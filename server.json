@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.agentpixel/agentpixel",
   "title": "AgentPixel",
-  "description": "Most visitors never fill out a form. Turn the ones who say yes into contacts your agent reads.",
+  "description": "Most visitors never fill out a form. Turn the ones who click Accept into contacts your agent reads.",
   "version": "0.1.4",
   "websiteUrl": "https://agentpixel.io/connect",
   "repository": {

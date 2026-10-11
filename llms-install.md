@@ -27,4 +27,4 @@ AgentPixel is a hosted remote MCP server. There is nothing to clone, build or ru
 4. Store the key only in the user's private settings: add `"Authorization": "Bearer <key>"` to this server's headers. Never write it to a repository, chat log or URL.
 5. Call `whoami` to confirm the account, then `setup_status`.
 
-Consent comes first: run `configure_consent` with `resolution` among the purposes and install the snippet it returns. That snippet shows the consent bar that asks each visitor to "identify this visit." Do not install a snippet before consent is configured.
+Consent comes first: run `configure_consent` with `resolution` among the purposes and install the snippet it returns. That snippet shows a Cookie Permissions bar. Visitors click Accept to be identified. Do not install a snippet before consent is configured.
