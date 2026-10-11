@@ -1,7 +1,7 @@
 {
   "name": "agentpixel",
   "version": "0.1.2",
-  "description": "Consent-first website pixel: your agent sets up a consent bar, installs the tag, verifies it and reads contacts. 30-day trial, no card.",
+  "description": "Most website visitors leave without filling out a form. AgentPixel turns the ones who say yes into contacts your AI agent reads. 30-day trial, no card.",
   "mcpServers": {
     "agentpixel": {
       "httpUrl": "https://agentpixel.io/mcp",

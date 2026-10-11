@@ -2,7 +2,21 @@
 
 <!-- mcp-name: io.agentpixel/agentpixel -->
 
-**Consent-first website pixel for AI agents.** Your agent sets up a consent bar, installs the tag, verifies it and reads contacts. The snippet from `configure_consent` shows the bar, which asks each visitor to "identify this visit" and stores each acceptance with the policy hash and origin. Try it first with `try_sample` (no account, no key). 30-day trial, no card, then $1 per account/month.
+**Most people who visit your website never fill out a form. AgentPixel helps you meet the ones who say yes.**
+
+## Why use it
+
+You pay to bring people to your site through ads, content and events, and most of them leave without a name. AgentPixel puts a consent bar on your site that asks each visitor to "identify this visit." Visitors who say yes come back as contacts, so you can:
+
+- **Follow up with prospects who never filled out a form.** Add them to nurture and convert them later.
+- **Get more from the ad spend you already have.** Paid clicks from visitors who say yes become contacts, not just anonymous sessions.
+- **Know who your traffic really is.** Job titles and companies of visitors who say yes show whether your traffic fits your ideal customer profile.
+
+Every result depends on visitors who say yes, and not every visitor who says yes can be matched to a contact.
+
+**How it works.** Consent-first website pixel: set up the consent bar, install the tag, verify it and read contacts. Your AI agent does the setup. It can show labeled sample output with `try_sample` (no account, no key), start a 30-day trial (no card) with a 6-digit code from your email, install the snippet from `configure_consent` and read contacts by day. Then $1 per account per month.
+
+## Install
 
 [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_AgentPixel-0098FF)](https://insiders.vscode.dev/redirect/mcp/install?name=AgentPixel&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fagentpixel.io%2Fmcp%22%2C%22headers%22%3A%7B%22X-AgentPixel-Source%22%3A%22vscode%22%7D%7D)
 [![Install in Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://agentpixel.io/connect)
