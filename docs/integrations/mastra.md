@@ -25,7 +25,7 @@ export const mcp = new MCPClient({
 
 export const growthAgent = new Agent({
   name: 'growth-agent',
-  instructions: 'You install and monitor the AgentPixel consent pixel and report consented contacts.',
+  instructions: 'You install and monitor the AgentPixel consent pixel and report contacts.',
   model: anthropic('claude-sonnet-4-5'),
   tools: await mcp.getTools(),
 });

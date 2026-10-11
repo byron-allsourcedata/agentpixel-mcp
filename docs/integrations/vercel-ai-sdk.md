@@ -23,7 +23,7 @@ try {
     model: anthropic('claude-sonnet-4-5'),
     tools: await agentpixel.tools(),
     stopWhen: stepCountIs(8),
-    prompt: 'Show the AgentPixel setup status, then list consented contacts from today.',
+    prompt: 'Show the AgentPixel setup status, then list contacts from today.',
   });
   console.log(text);
 } finally {

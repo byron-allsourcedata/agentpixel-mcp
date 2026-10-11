@@ -24,12 +24,12 @@ server_params = {
 with MCPServerAdapter(server_params) as tools:
     marketer = Agent(
         role="Website growth agent",
-        goal="Install a consent-first pixel and report consented contacts",
+        goal="Install a consent-first pixel and report contacts",
         backstory="You manage the company website and its visitor consent.",
         tools=tools,
     )
     task = Task(
-        description="Check setup_status. If no pixel exists for https://example.com, create one, configure consent and return the script tag. Then list today's consented contacts.",
+        description="Check setup_status. If no pixel exists for https://example.com, create one, configure consent and return the script tag. Then list today's contacts.",
         expected_output="The script tag, the install status and a contact count.",
         agent=marketer,
     )

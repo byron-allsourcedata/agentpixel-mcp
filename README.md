@@ -2,7 +2,7 @@
 
 <!-- mcp-name: io.agentpixel/agentpixel -->
 
-**Consent-first website pixel for AI agents.** Visitors accept "identify this visit" before anything runs; your agent installs the tag and reads consented contacts. 30-day trial, no card, then $1 per account/month.
+**Consent-first website pixel for AI agents.** Your agent sets up a consent bar, installs the tag, verifies it and reads contacts. The snippet from `configure_consent` shows the bar, which asks each visitor to "identify this visit" and stores each acceptance with the policy hash and origin. Try it first with `try_sample` (no account, no key). 30-day trial, no card, then $1 per account/month.
 
 [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_AgentPixel-0098FF)](https://insiders.vscode.dev/redirect/mcp/install?name=AgentPixel&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fagentpixel.io%2Fmcp%22%2C%22headers%22%3A%7B%22X-AgentPixel-Source%22%3A%22vscode%22%7D%7D)
 [![Install in Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://agentpixel.io/connect)
