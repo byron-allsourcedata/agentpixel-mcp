@@ -6,6 +6,7 @@
 
 [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_AgentPixel-0098FF)](https://insiders.vscode.dev/redirect/mcp/install?name=AgentPixel&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fagentpixel.io%2Fmcp%22%2C%22headers%22%3A%7B%22X-AgentPixel-Source%22%3A%22vscode%22%7D%7D)
 [![Install in Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://agentpixel.io/connect)
+[![AllMCPs Verified](https://allmcps.com/api/badge/agentpixel?style=shield)](https://allmcps.com/mcp/agentpixel)
 
 Claude Code: `claude mcp add --transport http agentpixel https://agentpixel.io/mcp --header "X-AgentPixel-Source: claude_code"`
 
