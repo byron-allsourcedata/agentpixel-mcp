@@ -1,8 +1,8 @@
 {
   "identifier": "agentpixel",
   "name": "AgentPixel",
-  "version": "0.1.2",
-  "description": "Most website visitors leave without filling out a form. AgentPixel turns the ones who click Accept into contacts your AI agent reads. 30-day trial, no card.",
+  "version": "0.1.3",
+  "description": "Most website visitors leave without filling out a form. AgentPixel turns the ones who click Accept into contacts your AI agent reads. Free: 200 contacts per month, no card.",
   "homepage": "https://github.com/byron-allsourcedata/agentpixel-mcp",
   "cloudEndpoint": "https://agentpixel.io/mcp",
   "author": "AllSource Data Corporation",

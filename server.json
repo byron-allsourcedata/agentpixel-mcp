@@ -26,13 +26,13 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer <your AgentPixel API key>. Leave blank to start the 30-day trial; required for pixel and contact tools unless X-API-Key is used.",
+          "description": "Bearer <your AgentPixel API key>. Leave blank to create a Free account; required for pixel and contact tools unless X-API-Key is used.",
           "isRequired": false,
           "isSecret": true
         },
         {
           "name": "X-API-Key",
-          "description": "Your AgentPixel API key, as an alternative to Authorization. Leave blank to start the trial.",
+          "description": "Your AgentPixel API key, as an alternative to Authorization. Leave blank to create a Free account.",
           "isRequired": false,
           "isSecret": true
         }

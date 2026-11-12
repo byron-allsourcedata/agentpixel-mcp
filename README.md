@@ -14,7 +14,7 @@ You pay to bring people to your site through ads, content and events, and most o
 
 Every result depends on visitors who click Accept, and not every visitor who clicks Accept can be matched to a contact.
 
-**How it works.** Consent-first website pixel: set up the consent bar, install the tag, verify it and read contacts. Your AI agent does the setup. It can show labeled sample output with `try_sample` (no account, no key), start a 30-day trial (no card) with a 6-digit code from your email, install the snippet from `configure_consent` and read contacts by day. Then $1 per account per month.
+**How it works.** Consent-first website pixel: set up the consent bar, install the tag, verify it and read contacts. Your AI agent does the setup. It can show labeled sample output with `try_sample` (no account, no key), create a Free account with 200 contacts per month (no card) with a 6-digit code from your email, install the snippet from `configure_consent` and read contacts by day. Paid plans start at $49 per month.
 
 ## Install
 
@@ -107,7 +107,7 @@ See [the public connection guide](https://agentpixel.io/connect) and [API docume
 
 ## Pricing
 
-The 30-day trial requires no card. Afterward, service costs $1 per account per month, covering up to 3 pixels and 500 new contacts per UTC calendar month, with no extra usage charges. After trial expiry, the account pauses until subscribed. New resolutions stop at the monthly limit and resume with the next UTC month's allowance. Subscription does not increase that limit. Consult account status and the current contract for available reads and next actions.
+Free includes 200 new contacts per month, no card and no trial deadline. Starter is $49/month for 1,000 contacts, Growth $199/month for 5,000, and Unlimited $499/month without a contact cap. Each plan includes one website and its subdomains. Paid plans can add websites for $19/month each or 500 contacts for $39 for the current billing period. No automatic overage charges. Existing accounts retain their terms until explicitly changing plans. See https://agentpixel.io/billing for current plans.
 
 ## License, privacy, terms and support
 
